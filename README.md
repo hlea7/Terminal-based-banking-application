@@ -1,14 +1,14 @@
-##This is Python Terminal-based banking application.
+## This is Python Terminal-based banking application.
 
 Its goal is to provide users with convenient and secure access to basic operations with their bank accounts through a terminal interface implemented with special attention to error handling and user-friendliness. 
 
 Application implements an intuitive terminal interface with prompts for available commands where users are able to select Basic Account Operations:
 
-#View Balance
-#Deposit Funds
-#Withdraw Funds
-#View Transaction History
-#Currency Exchange
+# View Balance
+# Deposit Funds
+# Withdraw Funds
+# View Transaction History
+# Currency Exchange
 
 by entering the corresponding command numbers.
 
