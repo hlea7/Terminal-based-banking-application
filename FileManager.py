@@ -1,4 +1,4 @@
-import json
+from json import load, dump
 
 class FileManager:
     def load_data(self, filename):
@@ -15,12 +15,12 @@ class FileManager:
         # reads the contents of a file whose path is stored in the `json_file_path` variable 
         # and returns a list of dictionaries
         with open(json_file_path, "r") as file:
-            return json.load(file)
+            return load(file)
         
     def write_json(self, list_of_dicts, json_file_path):
         # writes a list of dictionaries from list_of_dicts to the `json_file_path` file
         with open(json_file_path, "w") as file:
-            json.dump(list_of_dicts, file, indent="\t")
+            dump(list_of_dicts, file, indent="\t")
 
     def add_to_json(self, data, json_file_path):
         # gets the dictionary in the data variable and adds it to the JSON `json_file_path`
