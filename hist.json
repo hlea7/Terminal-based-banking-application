@@ -82,5 +82,19 @@
 		"status": "success",
 		"amount_of_deposit": 100,
 		"total_balance": 100
+	},
+	{
+		"operation_type": "exchange",
+		"status": "failure",
+		"pre_exchange_amount": 2,
+		"exchange_amount": null,
+		"currency_from": "AUD",
+		"currency_to": "AUD"
+	},
+	{
+		"operation_type": "deposit",
+		"status": "success",
+		"amount_of_deposit": 20,
+		"total_balance": 20
 	}
 ]
