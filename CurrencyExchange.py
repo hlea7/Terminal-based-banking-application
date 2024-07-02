@@ -1,4 +1,4 @@
-import requests
+from requests import get
 from FileManager import FileManager
 from HistoryMessages import HistoryMessages
 
@@ -14,7 +14,7 @@ class CurrencyExchange:
 
     def get_exchange_rates(self):
         # sends a get request to the link and returns the resulting dictionary
-        response = requests.get("https://fake-api.apps.berlintech.ai/api/currency_exchange")
+        response = get("https://fake-api.apps.berlintech.ai/api/currency_exchange")
         return response.json()
     
     def exchange_currency(self, currency_from, currency_to, amount):
